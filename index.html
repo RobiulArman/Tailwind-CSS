@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro to Tailwind CSS</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <header>
 
@@ -21,30 +23,35 @@
             <h1 class="text-5xl">This is a large text</h1>
             <h3 class="text-3xl">This is medium text</h3>
             <!-- <h1 class="text-8xl">Very very big</h1> -->
-             <p>Normal text</p>
-             <p class="text-blue-500 font-bold">Blue text</p>
-             <p class="font-bold">Normal bold text</p>
-             <p class="text-right">Right text</p>
-             <p class="text-center bg-orange-500">Center text</p>
-             <div class="h-14 bg-gradient-to-r from-yellow-500 to-orange-500"></div>
-             <div class="border border-amber-500">
+            <p>Normal text</p>
+            <p class="text-blue-500 font-bold">Blue text</p>
+            <p class="font-bold">Normal bold text</p>
+            <p class="text-right">Right text</p>
+            <p class="text-center bg-orange-500">Center text</p>
+            <div class="h-14 bg-gradient-to-r from-yellow-500 to-orange-500"></div>
+            <div class="border border-amber-500">
                 <h3>Title</h3>
                 <p>content</p>
-             </div>
+            </div>
         </section>
         <section class="w-3/4 mx-auto p-12 h-64 border-orange-600 border-8 overflow-scroll border">
             <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eum, totam voluptatem repudiandae repellat assumenda rerum deserunt delectus ex debitis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia deserunt necessitatibus praesentium delectus numquam error fugiat fuga exercitationem odit maxime?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eum, totam voluptatem repudiandae
+                repellat assumenda rerum deserunt delectus ex debitis? Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Quia deserunt necessitatibus praesentium delectus numquam error fugiat fuga
+                exercitationem odit maxime?</p>
         </section>
         <hr>
         <section class="md:bg-yellow-400 lg:bg-red-400">
             <h3>My Responsiveness</h3>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis blanditiis suscipit! Ducimus quidem delectus tempora et reiciendis reprehenderit nulla!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum veritatis blanditiis suscipit! Ducimus
+                quidem delectus tempora et reiciendis reprehenderit nulla!</p>
         </section>
         <hr>
         <section>
             <h3>My FLexible Flex</h3>
-            <div class="h-80 overflow-scroll border border-2 border-purple-400 m-8 md:flex md:justify-between items-center">
+            <div
+                class="h-80 overflow-scroll border border-2 border-purple-400 m-8 md:flex md:justify-between items-center">
                 <div class="w-32 h-32 border border-4 border-blue-400 rounded-lg text-2xl font-bold">Item 1</div>
                 <div class="w-32 h-32 border border-4 border-blue-400 rounded-lg text-2xl font-bold">Item 2</div>
                 <div class="w-32 h-32 border border-4 border-blue-400 rounded-lg text-2xl font-bold">Item 3</div>
@@ -81,6 +88,39 @@
                 <div class="bg-pink-300 border border-2 rounded-md">Box 24</div>
             </div>
         </section>
+
+        <hr class="mt-10">
+
+        <section>
+            <div  class="w-11/12 mx-auto bg-gradient-to-r from-cyan-500 to-blue-500 mt-10">
+
+                <h2 class="border-4 border-amber-500  p-2">This is Paragraph</h2>
+                <p class="text-xl border-2 border-orange-600 mt-10 text-center text-[#FFFFFF] font-bold p-2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis perferendis quis eaque, assumenda soluta
+                    consectetur quae dicta suscipit deserunt molestias voluptatum sint facere alias, a blanditiis nemo
+                    illum? Nesciunt, voluptatum?</p>
+            </div>
+        </section>
+
+        <section>
+            <h3 class="text-3xl">Grid grid grid</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="bg-pink-300 border border-2 rounded-md">Box 1</div>
+                <div class=" bg-pink-300 border border-2 rounded-md">Box 2</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box 3</div>
+                <div class="bg-pink-300 border border-2 rounded-md">Box 4</div>
+                </div>
+            </section>
+
+            <section>
+                <h3 class="text-3xl mt=10">Flexy</h3>
+                <div class="w=11/12 h-40 mx-auto border-4 border-amber-500 flex flex-wrap justify-between items-center">
+                    <div class="bg-pink-300 border border-2 rounded-md ">Box</div>
+                    <div class=" bg-pink-300 border border-2 rounded-md">Box 2</div>
+                    <div class="bg-pink-300 border border-2 rounded-md">Box 3</div>
+                    <div class="bg-pink-300 border border-2 rounded-md">Box 4</div>
+                    </div>
+                </section>
     </main>
 </body>
+
 </html>
